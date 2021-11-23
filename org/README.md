@@ -1,9 +1,5 @@
 # fua.lib.resource.ontology.org
 
-# fua.lib.resource.ontology
-
-|       |    |    | |
-|:---   |:---|:---|:---|
-|       | | | |
+[![](images/org-ontology.edited.png)](images/org-ontology.original.png)
 
 ---

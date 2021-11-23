@@ -11,6 +11,7 @@
 | | ldp   | | | |  [here](../../model/ldp/) |
 | | [odrl](./odrl/README.md)   |                                                   | ttl, [remote](https://www.w3.org/ns/odrl/2/ODRL22.ttl), [local](./odrl/local/ODRL22.ttl) | [ODRL Version 2.2 Ontology](https://www.w3.org/ns/odrl/2/) | |
 | | [org](./org/README.md)     | | | [The Organization Ontology](https://www.w3.org/TR/vocab-org/) | |
+| |                            | | [LOV](https://lov.linkeddata.es/dataset/lov/vocabs/org) |  | |
 | | prov  | | | [PROV Model Primer](https://www.w3.org/TR/2013/NOTE-prov-primer-20130430/) | |
 | | rdf   | | | | |
 | | rdfs  | | | | |
@@ -22,5 +23,6 @@
 | | vcard | | | | |
 | | xsd   | | | | |
 | |       | | | | |
+
 
 ---
