@@ -7,6 +7,7 @@
 |    |       | | | | |
 |    | dct   | | | | |
 |    | foaf  | | | | |
+|    | fno   | | | | |
 |    | ids   | | | | |
 |    | ldp   | | ttl, [local](./ldp/local/ldp.ttl)   | [Specification ](https://www.w3.org/TR/ldp/) | [model](https://git02.int.nsc.ag/Research/fua/lib/model/ldp), [agent](https://git02.int.nsc.ag/Research/fua/lib/impl/ldp) |
 |    |       | | json, [local](./ldp/local/ldp.json) | [The W3C Linked Data Platform (LDP) Vocabulary](https://www.w3.org/ns/ldp) | |
