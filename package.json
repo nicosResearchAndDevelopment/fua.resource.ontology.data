@@ -1,0 +1,25 @@
+{
+  "name": "@nrd/fua.resource.ontology",
+  "version": "1.0.0",
+  "description": "",
+  "exports": {
+    ".": {
+      "require": "./load.ontology.js"
+    },
+    "./ldp": {
+      "require": "./ldp/load.ldp.js"
+    },
+    "./odrl": {
+      "require": "./odrl/load.odrl.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git02.int.nsc.ag:10022/Research/fua/lib/resource/resource.ontology.git"
+  },
+  "author": "",
+  "license": "UNLICENSED"
+}
