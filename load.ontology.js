@@ -7,7 +7,7 @@ module.exports = {
     'dct:title':       'load.ontology',
     'dct:alternative': '@nrd/fua.resource.ontology',
     'dct:requires':    [{
-        'dct:identifier': './ldp/load.ldp.js',
+        'dct:identifier': './ldp/load.rdf.js',
         'dct:format':     'application/fua.load+js'
     }]
 };

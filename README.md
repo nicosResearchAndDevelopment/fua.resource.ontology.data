@@ -6,18 +6,20 @@
 |    | [fua](./fua/README.md)  | [domain](./fua/domain/README.md) | ttl, [local](./fua/domain/fua.domain.ttl) | | |
 |    |       | | | | |
 |    | dct   | | | | |
-|    | foaf  | | | | |
+|    | [foaf](./foaf/README.md)  | | | | |
 |    | fno   | | | | |
 |    | ids   | | | | |
-|    | ldp   | | ttl, [local](./ldp/local/ldp.ttl)   | [Specification ](https://www.w3.org/TR/ldp/) | [model](https://git02.int.nsc.ag/Research/fua/lib/model/ldp), [agent](https://git02.int.nsc.ag/Research/fua/lib/impl/ldp) |
+|    | [ldn](./ldn/README.md)   | | | | |
+|    | [ldp](./ldp/README.md)   | | ttl, [local](./ldp/local/ldp.ttl)   | [Specification ](https://www.w3.org/TR/ldp/) | [model](https://git02.int.nsc.ag/Research/fua/lib/model/ldp), [agent](https://git02.int.nsc.ag/Research/fua/lib/impl/ldp) |
 |    |       | | json, [local](./ldp/local/ldp.json) | [The W3C Linked Data Platform (LDP) Vocabulary](https://www.w3.org/ns/ldp) | |
 |    |       | | xml, [local](./ldp/local/ldp.xml)   | | |
-|    | [odrl](./odrl/README.md)   |                                                   | ttl, [remote](https://www.w3.org/ns/odrl/2/ODRL22.ttl), [local](./odrl/local/ODRL22.ttl) | [ODRL Version 2.2 Ontology](https://www.w3.org/ns/odrl/2/) | |
+|    | [odrl](./odrl/README.md)   |                                                   | ttl, [remote](https://www.w3.org/ns/odrl/2/ODRL22.ttl), [local](./odrl/local/odrl.ttl) | [ODRL Version 2.2 Ontology](https://www.w3.org/ns/odrl/2/) | |
 |    | [org](./org/README.md)     | | | [The Organization Ontology](https://www.w3.org/TR/vocab-org/) | |
 |    |                            | | [LOV](https://lov.linkeddata.es/dataset/lov/vocabs/org) |  | |
+|    | [owl](./owl/README.md)  | | | | |
 |    | prov  | | | [PROV Model Primer](https://www.w3.org/TR/2013/NOTE-prov-primer-20130430/) | |
-|    | rdf   | | | | |
-|    | rdfs  | | | | |
+|    | [rdf](./rdf/README.md)   | | | | |
+|    | [rdfs](./rdfs/README.md)  | | | | |
 |    | skos  | | | | |
 |    | [time](./time/README.md)   |                    | ttl, [remote](http://www.w3.org/2006/time#), [local](./time/local/time.ttl) | [Time Ontology in OWL](https://www.w3.org/TR/owl-time/) | |
 |    |                            |                    | json, [local](./time/local/time.ttl) | | |

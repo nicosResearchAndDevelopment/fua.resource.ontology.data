@@ -6,11 +6,8 @@
     ".": {
       "require": "./load.ontology.js"
     },
-    "./ldp": {
-      "require": "./ldp/load.ldp.js"
-    },
-    "./odrl": {
-      "require": "./odrl/load.odrl.js"
+    "./rdf": {
+      "require": "./ldp/load.rdf.js"
     }
   },
   "scripts": {
