@@ -7,7 +7,7 @@ module.exports = {
     'dct:title':       'load.ldp',
     'dct:alternative': '@nrd/fua.resource.ontology/ldp',
     'dct:requires':    [{
-        'dct:identifier': './local/ODRL22.ttl',
+        'dct:identifier': './local/odrl.ttl',
         'dct:format':     'text/turtle'
     }]
 };

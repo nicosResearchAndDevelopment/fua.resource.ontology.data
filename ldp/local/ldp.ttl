@@ -90,7 +90,7 @@
 	rdfs:domain :Container;
 	rdfs:isDefinedBy :;
 	rdfs:label "hasMemberRelation";
-	rdfs:range rdf:Property ;.
+	rdfs:range rdf:Property.
 
 :isMemberOfRelation
 	a rdf:Property;
@@ -99,7 +99,7 @@
 	rdfs:domain :Container;
 	rdfs:isDefinedBy :;
 	rdfs:label "isMemmberOfRelation";
-	rdfs:range rdf:Property;.
+	rdfs:range rdf:Property.
 
 :membershipResource
 	a rdf:Property;
@@ -108,7 +108,7 @@
 	rdfs:domain :Container;
 	rdfs:isDefinedBy :;
 	rdfs:label "membershipResource";
-	rdfs:range rdfs:Resource;.
+	rdfs:range rdfs:Resource.
 
 :insertedContentRelation
 	a rdf:Property;
@@ -117,7 +117,7 @@
 	rdfs:domain :Container;
 	rdfs:isDefinedBy :;
 	rdfs:label "insertedContentRelation";
-	rdfs:range rdf:Property;.
+	rdfs:range rdf:Property.
 
 :member
 	a rdf:Property;
@@ -126,7 +126,7 @@
 	rdfs:domain :Resource;
 	rdfs:isDefinedBy :;
 	rdfs:label "member";
-	rdfs:range rdfs:Resource;.
+	rdfs:range rdfs:Resource.
 
 :contains
 	a rdf:Property;
@@ -135,7 +135,7 @@
 	rdfs:domain :Container;
 	rdfs:isDefinedBy :;
 	rdfs:label "contains";
-	rdfs:range rdfs:Resource;.
+	rdfs:range rdfs:Resource.
 
 :MemberSubject
 	a owl:Individual;
@@ -181,7 +181,7 @@
 	rdfs:domain :Resource;
 	rdfs:isDefinedBy :;
 	rdfs:label "constrainedBy";
-	rdfs:range rdfs:Resource;.
+	rdfs:range rdfs:Resource.
 
 :pageSortCriteria
  	a rdf:Property;
@@ -190,14 +190,14 @@
 	rdfs:domain :Page;
 	rdfs:isDefinedBy :;
 	rdfs:label "pageSortCriteria";
-	rdfs:range rdf:List;.
+	rdfs:range rdf:List.
 
 :PageSortCriterion
  	a rdfs:Class;
 	rdfs:comment "Element in the list of sorting criteria used by the server to assign container members to pages.";
 	vs:term_status "testing";
 	rdfs:label "PageSortCriterion";
-	rdfs:isDefinedBy :;.
+	rdfs:isDefinedBy :.
 
 :pageSortPredicate
  	a rdf:Property;
@@ -206,7 +206,7 @@
 	rdfs:domain :PageSortCriterion;
 	rdfs:isDefinedBy :;
 	rdfs:label "pageSortPredicate";
-	rdfs:range rdf:Property;.
+	rdfs:range rdf:Property.
 
 :pageSortOrder
  	a rdf:Property;
@@ -215,7 +215,7 @@
 	rdfs:domain :PageSortCriterion;
 	rdfs:isDefinedBy :;
 	rdfs:label "pageSortOrder";
-	rdfs:range rdf:Resource;.
+	rdfs:range rdf:Resource.
 
 :pageSortCollation
  	a rdf:Property;
@@ -224,7 +224,7 @@
 	rdfs:domain :PageSortCriterion;
 	rdfs:isDefinedBy :;
 	rdfs:label "pageSortCollation";
-	rdfs:range rdf:Property;.
+	rdfs:range rdf:Property.
 
 :Ascending
  	a owl:Individual;
