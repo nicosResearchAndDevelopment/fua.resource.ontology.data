@@ -1,0 +1,13 @@
+const path = require('path');
+
+module.exports = {
+    '@context':        'fua.load.rdf',
+    'dct:identifier':  path.join(__dirname, './load.rdf.js'),
+    'dct:format':      'application/fua.load+js',
+    'dct:title':       'load.rdf',
+    'dct:alternative': '@nrd/fua.resource.ontology/rdf',
+    'dct:requires':    [{
+        'dct:identifier': './local/rdf.ttl',
+        'dct:format':     'text/turtle'
+    }]
+};
