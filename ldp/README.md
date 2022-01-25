@@ -4,6 +4,7 @@
 - **Model:** [`ldp.ttl`](local/ldp.ttl), [`ldp.json`](local/ldp.json), [`ldp.xml`](local/ldp.xml)
 - **Specification:** https://www.w3.org/TR/ldp/
 - **Vocabulary:** https://www.w3.org/ns/ldp
+- **Wiki:** -
 - **LOV:** https://lov.linkeddata.es/dataset/lov/vocabs/ldp
 
 ![](images/ldpc-hierarchy.edited.png)

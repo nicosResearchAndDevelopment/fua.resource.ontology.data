@@ -4,6 +4,7 @@
 - **Model:** [`odrl.ttl`](local/odrl.ttl), [`odrl.json`](local/odrl.json), [`odrl.xml`](local/odrl.xml)
 - **Specification:** https://www.w3.org/TR/odrl-model/
 - **Vocabulary:** https://www.w3.org/TR/odrl-vocab/
+- **Wiki:** -
 - **LOV:** https://lov.linkeddata.es/dataset/lov/vocabs/odrl
 
 ![](images/model.edited-small.png)

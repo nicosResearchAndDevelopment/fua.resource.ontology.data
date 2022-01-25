@@ -4,6 +4,7 @@
 - **Model:** [`skos.xml`](local/skos.xml)
 - **Specification:** https://www.w3.org/TR/skos-reference/
 - **Vocabulary:** https://www.w3.org/TR/skos-reference/
+- **Wiki:** -
 - **LOV:** https://lov.linkeddata.es/dataset/lov/vocabs/skos
 
 ---

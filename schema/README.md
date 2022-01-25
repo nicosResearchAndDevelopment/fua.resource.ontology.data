@@ -4,6 +4,7 @@
 - **Model:** [`schema.ttl`](local/schema.ttl), [`schema.json`](local/schema.json), [`schema.xml`](local/schema.xml)
 - **Specification:** -
 - **Vocabulary:** -
+- **Wiki:** -
 - **LOV:** https://lov.linkeddata.es/dataset/lov/vocabs/schema
 
 ---

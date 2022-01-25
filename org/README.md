@@ -4,6 +4,7 @@
 - **Model:** [`org.ttl`](local/org.ttl)
 - **Specification:** https://www.w3.org/TR/vocab-org/
 - **Vocabulary:** https://www.w3.org/TR/vocab-org/
+- **Wiki:** -
 - **LOV:** https://lov.linkeddata.es/dataset/lov/vocabs/org
 
 ![](images/org-ontology.edited.png)

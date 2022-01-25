@@ -4,6 +4,7 @@
 - **Model:** [`shacl.ttl`](local/shacl.ttl), [`shacl.xml`](local/shacl.xml)
 - **Specification:** https://www.w3.org/TR/shacl/
 - **Vocabulary:** -
+- **Wiki:** -
 - **LOV:** https://lov.linkeddata.es/dataset/lov/vocabs/sh
 
 ```

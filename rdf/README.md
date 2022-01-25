@@ -4,6 +4,7 @@
 - **Model:** [`rdf.ttl`](local/rdf.ttl), [`rdf.json`](local/rdf.json), [`rdf.xml`](local/rdf.xml)
 - **Specification:** https://www.w3.org/TR/rdf11-concepts/
 - **Vocabulary:** -
+- **Wiki:** -
 - **LOV:** https://lov.linkeddata.es/dataset/lov/vocabs/rdf
 
 ---

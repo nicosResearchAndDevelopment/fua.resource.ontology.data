@@ -4,6 +4,7 @@
 - **Model:** [`fno.ttl`](local/fno.ttl), [`fnom.ttl`](local/fnom.ttl), [`fnoi.ttl`](local/fnoi.ttl), [`fnoc.ttl`](local/fnoc.ttl)
 - **Specification:** https://fno.io/spec/
 - **Vocabulary:** https://fno.io/ontology/
+- **Wiki:** -
 - **LOV:** -
 
 ---

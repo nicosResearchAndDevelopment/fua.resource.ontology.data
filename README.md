@@ -5,6 +5,7 @@
 |    | [fua](../ontology.fua/README.md)  |                                  | ttl, [local](../ontology.fua/fua.ttl) |  | |
 |    | [fua](./fua/README.md)  | [domain](./fua/domain/README.md) | ttl, [local](./fua/domain/fua.domain.ttl) | | |
 |    |       | | | | |
+|    | [acl](./acl/README.md)   | | | | |
 |    | [dc](./dc/README.md)   | | | | |
 |    | [dct](./dct/README.md)   | | | | |
 |    | [foaf](./foaf/README.md)  | | | | |
