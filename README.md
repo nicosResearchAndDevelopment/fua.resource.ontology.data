@@ -7,6 +7,7 @@
 |    |       | | | | |
 |    | [acl](./acl/README.md)   | | | | |
 |    | [cc](./cc/README.md)   | | | | |
+|    | [cert](./cert/README.md)   | | | | |
 |    | [dc](./dc/README.md)   | | | | |
 |    | [dct](./dct/README.md)   | | | | |
 |    | [foaf](./foaf/README.md)  | | | | |

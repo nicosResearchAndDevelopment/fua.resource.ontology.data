@@ -2,6 +2,9 @@ const
     fs              = require('fs/promises'),
     path            = require('path'),
     fetch           = require('node-fetch'),
+    rdf             = require('@nrd/fua.module.rdf'),
+    {TermFactory}   = require('@nrd/fua.module.persistence'),
+    {Readable}      = require('stream'),
     _util           = require('@nrd/fua.core.util'),
     util            = {
         ..._util,
@@ -102,5 +105,41 @@ util.downloadOntology = async function (url, options, filename, override = false
     if (!content) return false;
     return await util.saveOntology(filename, content, override);
 }; // downloadOntology
+
+/**
+ * @param {string} content
+ * @param {string} fromFormat
+ * @param {string} toFormat
+ * @param {object} [context={}]
+ * @returns {Promise<string>}
+ */
+util.transpileOntology = async function (content, fromFormat, toFormat, context = {}) {
+    const
+        factory      = new TermFactory(context),
+        inputStream  = Readable.from([content], {objectMode: false}),
+        quadStream   = rdf.parseStream(inputStream, fromFormat, factory),
+        outputStream = rdf.serializeStream(quadStream, toFormat, factory), // FIXME the serializeStream would not output prefixes, only the serializeDataset does
+        chunks       = [];
+    outputStream.on('data', (chunk) => chunks.push(chunk));
+    await new Promise((resolve) => outputStream.on('end', resolve));
+    return chunks.join('');
+}; // transpileOntology
+
+/**
+ * @param {string} origFilename
+ * @param {string} originFormat
+ * @param {string} targetFilename
+ * @param {string} targetFormat
+ * @param {object} [context={}]
+ * @param {boolean} [override=false]
+ * @returns {Promise<boolean>}
+ */
+util.convertOntology = async function (origFilename, originFormat, targetFilename, targetFormat, context = {}, override = false) {
+    const originContent = await util.readOntology(origFilename);
+    if (!originContent) return false;
+    const targetContent = await util.transpileOntology(originContent, originFormat, targetFormat, context);
+    if (!targetContent) return false;
+    return await util.saveOntology(targetFilename, targetContent, override);
+}; // convertOntology
 
 module.exports = util;
