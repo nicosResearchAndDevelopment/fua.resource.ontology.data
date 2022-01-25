@@ -21,6 +21,7 @@
 |    | prov  | | | [PROV Model Primer](https://www.w3.org/TR/2013/NOTE-prov-primer-20130430/) | |
 |    | [rdf](./rdf/README.md)   | | | | |
 |    | [rdfs](./rdfs/README.md)  | | | | |
+|    | [schema](./schema/README.md)  | | | | |
 |    | skos  | | | | |
 |    | [time](./time/README.md)   |                    | ttl, [remote](http://www.w3.org/2006/time#), [local](./time/local/time.ttl) | [Time Ontology in OWL](https://www.w3.org/TR/owl-time/) | |
 |    |                            |                    | json, [local](./time/local/time.ttl) | | |
