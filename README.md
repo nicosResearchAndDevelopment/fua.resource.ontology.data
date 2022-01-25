@@ -22,6 +22,7 @@
 |    | [rdf](./rdf/README.md)   | | | | |
 |    | [rdfs](./rdfs/README.md)  | | | | |
 |    | [schema](./schema/README.md)  | | | | |
+|    | [shacl](./shacl/README.md)  | | | | |
 |    | [skos](./skos/README.md)  | | | | |
 |    | [time](./time/README.md)   |                    | ttl, [remote](http://www.w3.org/2006/time#), [local](./time/local/time.ttl) | [Time Ontology in OWL](https://www.w3.org/TR/owl-time/) | |
 |    |                            |                    | json, [local](./time/local/time.ttl) | | |
