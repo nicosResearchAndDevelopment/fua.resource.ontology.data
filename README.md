@@ -28,7 +28,7 @@
 |    |                            | gregorian          | ttl, [remote](https://www.w3.org/ns/time/gregorian), [local](./time/local/gregorian.ttl) | | |
 |    | vc    | Verifiable Credential   | | [Verifiable Credentials Data Model v1.1](https://www.w3.org/TR/vc-data-model/) | |
 |    |       | Verifiable Presentation | | | |
-|    | vcard | | | | |
+|    | [vcard](./vcard/README.md) | | | | |
 |    | [xsd](./xsd/README.md)     | | | [XML Schema](http://www.w3.org/2001/XMLSchema) | |
 |    |                            | | | [W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes](https://www.w3.org/TR/xmlschema11-2/)| |
 |    |                            | | | [Build-in Datatypes](https://www.w3.org/TR/xmlschema-2/#built-in-datatypes)| |
