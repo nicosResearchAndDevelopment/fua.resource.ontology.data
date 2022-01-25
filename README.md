@@ -19,7 +19,7 @@
 |    | [org](./org/README.md)     | | | [The Organization Ontology](https://www.w3.org/TR/vocab-org/) | |
 |    |                            | | [LOV](https://lov.linkeddata.es/dataset/lov/vocabs/org) |  | |
 |    | [owl](./owl/README.md)  | | | | |
-|    | prov  | | | [PROV Model Primer](https://www.w3.org/TR/2013/NOTE-prov-primer-20130430/) | |
+|    | [prov](./prov/README.md)  | | | [PROV Model Primer](https://www.w3.org/TR/2013/NOTE-prov-primer-20130430/) | |
 |    | [rdf](./rdf/README.md)   | | | | |
 |    | [rdfs](./rdfs/README.md)  | | | | |
 |    | [saref](./saref/README.md)  | | | | |
