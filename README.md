@@ -11,6 +11,7 @@
 |    | [dct](./dct/README.md)   | | | | |
 |    | [foaf](./foaf/README.md)  | | | | |
 |    | [fno](./fno/README.md)   | | | | |
+|    | [geo](./geo/README.md)   | | | | |
 |    | [http](./http/README.md)   | | | | |
 |    | ids   | | | | |
 |    | [ldn](./ldn/README.md)   | | | | |
