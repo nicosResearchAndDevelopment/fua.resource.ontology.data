@@ -7,7 +7,7 @@ module.exports = {
     'dct:title':       'load.prov',
     'dct:alternative': '@nrd/fua.resource.ontology/prov',
     'dct:requires':    [{
-        'dct:identifier': './local/prov.ttl',
+        'dct:identifier': './local/prov_fixed.ttl',
         'dct:format':     'text/turtle'
     }]
 };

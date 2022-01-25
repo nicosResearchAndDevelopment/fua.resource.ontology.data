@@ -2,12 +2,12 @@ const path = require('path');
 
 module.exports = {
     '@context':        'fua.load.rdf',
-    'dct:identifier':  path.join(__dirname, './load.acl.js'),
+    'dct:identifier':  path.join(__dirname, './load.saref.js'),
     'dct:format':      'application/fua.load+js',
-    'dct:title':       'load.acl',
-    'dct:alternative': '@nrd/fua.resource.ontology/acl',
+    'dct:title':       'load.saref',
+    'dct:alternative': '@nrd/fua.resource.ontology/saref',
     'dct:requires':    [{
-        'dct:identifier': './local/acl_fixed.ttl',
+        'dct:identifier': './local/saref.ttl',
         'dct:format':     'text/turtle'
     }]
 };
