@@ -6,6 +6,7 @@
 |    | [fua](./fua/README.md)  | [domain](./fua/domain/README.md) | ttl, [local](./fua/domain/fua.domain.ttl) | | |
 |    |       | | | | |
 |    | [acl](./acl/README.md)   | | | | |
+|    | [cc](./cc/README.md)   | | | | |
 |    | [dc](./dc/README.md)   | | | | |
 |    | [dct](./dct/README.md)   | | | | |
 |    | [foaf](./foaf/README.md)  | | | | |
@@ -31,7 +32,7 @@
 |    |                            |                    | json, [local](./time/local/time.ttl) | | |
 |    |                            |                    | xml, [local](./time/local/time.xml) | | |
 |    |                            | gregorian          | ttl, [remote](https://www.w3.org/ns/time/gregorian), [local](./time/local/gregorian.ttl) | | |
-|    | vc    | Verifiable Credential   | | [Verifiable Credentials Data Model v1.1](https://www.w3.org/TR/vc-data-model/) | |
+|    | [vc](./vc/README.md)    | Verifiable Credential   | | [Verifiable Credentials Data Model v1.1](https://www.w3.org/TR/vc-data-model/) | |
 |    |       | Verifiable Presentation | | | |
 |    | [vcard](./vcard/README.md) | | | | |
 |    | [xsd](./xsd/README.md)     | | | [XML Schema](http://www.w3.org/2001/XMLSchema) | |
