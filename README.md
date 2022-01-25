@@ -10,6 +10,7 @@
 |    | [dct](./dct/README.md)   | | | | |
 |    | [foaf](./foaf/README.md)  | | | | |
 |    | [fno](./fno/README.md)   | | | | |
+|    | [http](./http/README.md)   | | | | |
 |    | ids   | | | | |
 |    | [ldn](./ldn/README.md)   | | | | |
 |    | [ldp](./ldp/README.md)   | | ttl, [local](./ldp/local/ldp.ttl)   | [Specification ](https://www.w3.org/TR/ldp/) | [model](https://git02.int.nsc.ag/Research/fua/lib/model/ldp), [agent](https://git02.int.nsc.ag/Research/fua/lib/impl/ldp) |
