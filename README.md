@@ -22,6 +22,7 @@
 |    | prov  | | | [PROV Model Primer](https://www.w3.org/TR/2013/NOTE-prov-primer-20130430/) | |
 |    | [rdf](./rdf/README.md)   | | | | |
 |    | [rdfs](./rdfs/README.md)  | | | | |
+|    | [saref](./saref/README.md)  | | | | |
 |    | [schema](./schema/README.md)  | | | | |
 |    | [shacl](./shacl/README.md)  | | | | |
 |    | [skos](./skos/README.md)  | | | | |
