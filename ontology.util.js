@@ -1,17 +1,17 @@
 const
-    fs              = require('fs/promises'),
-    path            = require('path'),
-    fetch           = require('node-fetch'),
-    rdf             = require('@nrd/fua.module.rdf'),
-    {TermFactory}   = require('@nrd/fua.module.persistence'),
-    {Readable}      = require('stream'),
-    _util           = require('@nrd/fua.core.util'),
-    util            = {
+    fs                     = require('fs/promises'),
+    path                   = require('path'),
+    fetch                  = require('node-fetch'),
+    rdf                    = require('@nrd/fua.module.rdf'),
+    {TermFactory, Dataset} = require('@nrd/fua.module.persistence'),
+    {Readable}             = require('stream'),
+    _util                  = require('@nrd/fua.core.util'),
+    util                   = {
         ..._util,
         assert: _util.Assert('resource.ontology')
     },
-    root_dir        = __dirname,
-    default_options = {
+    root_dir               = __dirname,
+    default_options        = {
         method:         'GET',
         mode:           'cors',
         cache:          'no-cache',
@@ -115,14 +115,19 @@ util.downloadOntology = async function (url, options, filename, override = false
  */
 util.transpileOntology = async function (content, fromFormat, toFormat, context = {}) {
     const
-        factory      = new TermFactory(context),
-        inputStream  = Readable.from([content], {objectMode: false}),
-        quadStream   = rdf.parseStream(inputStream, fromFormat, factory),
-        outputStream = rdf.serializeStream(quadStream, toFormat, factory), // FIXME the serializeStream would not output prefixes, only the serializeDataset does
-        chunks       = [];
-    outputStream.on('data', (chunk) => chunks.push(chunk));
-    await new Promise((resolve) => outputStream.on('end', resolve));
-    return chunks.join('');
+        factory     = new TermFactory(context),
+        inputStream = Readable.from([content], {objectMode: false}),
+        quadStream  = rdf.parseStream(inputStream, fromFormat, factory),
+        dataset     = new Dataset(null, factory);
+    await dataset.addStream(quadStream);
+    return await rdf.serializeDataset(dataset, toFormat);
+    // const
+    //     // FIXME the serializeStream would not output prefixes, only the serializeDataset does
+    //     outputStream = rdf.serializeStream(quadStream, toFormat, factory),
+    //     chunks       = [];
+    // outputStream.on('data', (chunk) => chunks.push(chunk));
+    // await new Promise((resolve) => outputStream.on('end', resolve));
+    // return chunks.join('');
 }; // transpileOntology
 
 /**

@@ -6,8 +6,80 @@
     ".": {
       "require": "./load.ontology.js"
     },
+    "./acl": {
+      "require": "./acl/load.acl.js"
+    },
+    "./cc": {
+      "require": "./cc/load.cc.js"
+    },
+    "./cert": {
+      "require": "./cert/load.cert.js"
+    },
+    "./dc": {
+      "require": "./dc/load.dc.js"
+    },
+    "./dct": {
+      "require": "./dct/load.dct.js"
+    },
+    "./fno": {
+      "require": "./fno/load.fno.js"
+    },
+    "./foaf": {
+      "require": "./foaf/load.foaf.js"
+    },
+    "./geo": {
+      "require": "./geo/load.geo.js"
+    },
+    "./http": {
+      "require": "./http/load.http.js"
+    },
+    "./ldn": {
+      "require": "./ldn/load.ldn.js"
+    },
+    "./ldp": {
+      "require": "./ldp/load.ldp.js"
+    },
+    "./odrl": {
+      "require": "./odrl/load.odrl.js"
+    },
+    "./org": {
+      "require": "./org/load.org.js"
+    },
+    "./owl": {
+      "require": "./owl/load.owl.js"
+    },
+    "./prov": {
+      "require": "./prov/load.prov.js"
+    },
     "./rdf": {
-      "require": "./ldp/load.rdf.js"
+      "require": "./rdf/load.rdf.js"
+    },
+    "./rdfs": {
+      "require": "./rdfs/load.rdfs.js"
+    },
+    "./saref": {
+      "require": "./saref/load.saref.js"
+    },
+    "./schema": {
+      "require": "./schema/load.schema.js"
+    },
+    "./shacl": {
+      "require": "./shacl/load.shacl.js"
+    },
+    "./skos": {
+      "require": "./skos/load.skos.js"
+    },
+    "./time": {
+      "require": "./time/load.time.js"
+    },
+    "./vc": {
+      "require": "./vc/load.vc.js"
+    },
+    "./vcard": {
+      "require": "./vcard/load.vcard.js"
+    },
+    "./xsd": {
+      "require": "./xsd/load.xsd.js"
     }
   },
   "scripts": {

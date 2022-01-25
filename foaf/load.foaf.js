@@ -7,7 +7,7 @@ module.exports = {
     'dct:title':       'load.foaf',
     'dct:alternative': '@nrd/fua.resource.ontology/foaf',
     'dct:requires':    [{
-        'dct:identifier': './local/foaf.json',
-        'dct:format':     'application/ld+json'
+        'dct:identifier': './local/foaf.xml',
+        'dct:format':     'application/rdf+xml'
     }]
 };
