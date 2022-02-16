@@ -10,3 +10,17 @@
 ![](images/interval-relations.original.png)
 
 ---
+
+### TemporalEntity
+
+![](images/TemporalEntity.original.png)
+
+### TemporalPosition
+
+![](images/TemporalPosition.original.png)
+
+### TemporalDuration
+
+![](images/TemporalDuration.original.png)
+
+---
