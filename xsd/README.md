@@ -1,8 +1,14 @@
 # XML Schema Definition (XSD)
 
 - **Ontology:** http://www.w3.org/2001/XMLSchema#
-- **Model:** -
-- **Specification:** https://www.w3.org/TR/xmlschema-2/
+- **Model:**
+    - **1.0:** [`XMLSchema.xsd`](local/1.0/XMLSchema.xsd),
+      [`XMLSchema.dtd`](local/1.0/XMLSchema.dtd),
+      [`datatypes.dtd`](local/1.0/datatypes.dtd)
+    - **1.1:** [`XMLSchema.xsd`](local/1.1/XMLSchema.xsd),
+      [`XMLSchema.dtd`](local/1.1/XMLSchema.dtd),
+      [`datatypes.dtd`](local/1.1/datatypes.dtd)
+- **Specification:** https://www.w3.org/TR/xmlschema11-1/
 - **Vocabulary:** https://www.w3.org/TR/xmlschema11-2/
 - **Wiki:** https://www.data2type.de/xml-xslt-xslfo/xml-schema
 - **LOV:** https://lov.linkeddata.es/dataset/lov/vocabs/xsd
@@ -11,7 +17,7 @@
 
 ---
 
-### [Datentypen-Referenz](https://www.data2type.de/xml-xslt-xslfo/xml-schema/datentypen-referenz)
+### [Datentypen-Referenz](https://www.data2type.de/xml-xslt-xslfo/xml-schema/datentypen-referenz) _@de_
 
 [`anyURI`](https://www.data2type.de/xml-xslt-xslfo/xml-schema/datentypen-referenz/xs-anyuri)
 [`base64Binary`](https://www.data2type.de/xml-xslt-xslfo/xml-schema/datentypen-referenz/xs-base64binary)
