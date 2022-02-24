@@ -24,6 +24,7 @@
 |    |                            | | [LOV](https://lov.linkeddata.es/dataset/lov/vocabs/org) |  | |
 |    | [owl](./owl/README.md)  | | ttl, [local](./owl/local/owl.ttl) | | |
 |    | [prov](./prov/README.md)  | | ttl, [local](./prov/local/prov_fixed.ttl) | [PROV Model Primer](https://www.w3.org/TR/2013/NOTE-prov-primer-20130430/) | |
+|    | [qudt](./qudt/README.md)  | | ttl, [local](./qudt/local/schema/qudt.ttl) | | |
 |    | [rdf](./rdf/README.md)   | | ttl, [local](./rdf/local/rdf.ttl) | | |
 |    | [rdfs](./rdfs/README.md)  | | ttl, [local](./rdfs/local/rdfs.ttl) | | |
 |    | [saref](./saref/README.md)  | | ttl, [local](./saref/local/saref.ttl) | | |

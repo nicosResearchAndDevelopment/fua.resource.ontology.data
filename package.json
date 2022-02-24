@@ -51,6 +51,9 @@
     "./prov": {
       "require": "./prov/load.prov.js"
     },
+    "./qudt": {
+      "require": "./qudt/load.qudt.js"
+    },
     "./rdf": {
       "require": "./rdf/load.rdf.js"
     },

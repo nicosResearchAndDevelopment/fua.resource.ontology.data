@@ -52,6 +52,9 @@ module.exports = {
         'dct:identifier': './prov/load.prov.js',
         'dct:format':     'application/fua.load+js'
     }, {
+        'dct:identifier': './qudt/load.qudt.js',
+        'dct:format':     'application/fua.load+js'
+    }, {
         'dct:identifier': './rdf/load.rdf.js',
         'dct:format':     'application/fua.load+js'
     }, {
