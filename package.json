@@ -72,6 +72,9 @@
     "./skos": {
       "require": "./skos/load.skos.js"
     },
+    "./sweet": {
+      "require": "./sweet/load.sweet.js"
+    },
     "./time": {
       "require": "./time/load.time.js"
     },

@@ -73,6 +73,9 @@ module.exports = {
         'dct:identifier': './skos/load.skos.js',
         'dct:format':     'application/fua.load+js'
     }, {
+        'dct:identifier': './sweet/load.sweet.js',
+        'dct:format':     'application/fua.load+js'
+    }, {
         'dct:identifier': './time/load.time.js',
         'dct:format':     'application/fua.load+js'
     }, {
