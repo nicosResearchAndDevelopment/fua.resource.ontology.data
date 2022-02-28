@@ -1,6 +1,6 @@
 # Semantic Web for Earth and Environmental Terminology (SWEET)
 
-- **Ontology:** http://sweetontology.net/ (_Error 522: Connection timed out_)
+- **Ontology:** http://sweetontology.net/ (http://cor.esipfed.org/ont?iri=http://sweetontology.net/)
 - **Model:** [`sweetAll.ttl`](local/sweetAll.ttl),
   [`sweetAll_includeV23Comments.ttl`](local/sweetAll_includeV23Comments.ttl),
   [`sweet_v23Comments.ttl`](local/sweet_v23Comments.ttl)
@@ -230,7 +230,7 @@
       [`stateVisibility.ttl`](local/stateVisibility.ttl)
 - **Specification:** https://github.com/ESIPFed/sweet
 - **Vocabulary:** -
-- **Wiki:** -
+- **Wiki:** http://cor.esipfed.org/ont?iri=http://sweetontology.net/sweetAll
 - **LOV:** -
 
 ---
