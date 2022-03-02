@@ -43,4 +43,20 @@
 |    |                            | | | [Build-in Datatypes](https://www.w3.org/TR/xmlschema-2/#built-in-datatypes)| |
 |    |       | | | | |
 
+## Helpful Links
+
+- [Semantic Web](https://www.w3.org/standards/semanticweb/)
+- [Linked Open Vocabularies (LOV)](https://lov.linkeddata.es/dataset/lov)
+
+## Interesting Topics
+
+- [System for Cross-domain Identity Management](http://www.simplecloud.info/#Specification)
+- [Smart Data Models](https://github.com/smart-data-models)
+- [Topology and Orchestration Specification for Cloud Applications](http://docs.oasis-open.org/tosca/TOSCA/v1.0/os/TOSCA-v1.0-os.html)
+- [Open Policy Agent - Policy Language](https://www.openpolicyagent.org/docs/latest/policy-language/)
+- [Semantic Sensor Network Ontology](https://www.w3.org/TR/vocab-ssn/)
+- [Extensions to the Semantic Sensor Network Ontology](https://www.w3.org/TR/vocab-ssn-ext/)
+- [Sensor, Observation, Sample, and Actuator (SOSA) Ontology](https://www.w3.org/2015/spatial/wiki/SOSA_Ontology)
+- [Ontology of units of Measure](https://github.com/HajoRijgersberg/OM)
+
 ---

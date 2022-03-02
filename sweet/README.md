@@ -229,7 +229,7 @@
       [`stateTimeGeologic.ttl`](local/stateTimeGeologic.ttl),
       [`stateVisibility.ttl`](local/stateVisibility.ttl)
 - **Specification:** https://github.com/ESIPFed/sweet
-- **Vocabulary:** -
+- **Vocabulary:** https://bioportal.bioontology.org/ontologies/SWEET
 - **Wiki:** http://cor.esipfed.org/ont?iri=http://sweetontology.net/sweetAll
 - **LOV:** -
 
