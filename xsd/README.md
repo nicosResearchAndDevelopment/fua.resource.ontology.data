@@ -13,7 +13,7 @@
 - **Wiki:** https://www.data2type.de/xml-xslt-xslfo/xml-schema
 - **LOV:** https://lov.linkeddata.es/dataset/lov/vocabs/xsd
 
-![](images/type-hierarchy.edited-short.png)
+![](images/type-hierarchy.edited.png)
 
 ---
 
