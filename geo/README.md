@@ -16,8 +16,6 @@
 - **LOV:**
     - https://lov.linkeddata.es/dataset/lov/vocabs/geo
     - https://lov.linkeddata.es/dataset/lov/vocabs/gml
-- **Further information:**
-    - [Coordinate Reference System (CRS)](CRS.md)
 
 ---
 
