@@ -1,7 +1,7 @@
 # Creative Commons Rights Expression Language (CC)
 
 - **Ontology:** http://creativecommons.org/ns#
-- **Model:** [`cc.xml`](local/cc.xml)
+- **Model:** [`cc.ttl`](local/cc_generated.ttl), [`cc.xml`](local/cc.xml)
 - **Specification:** https://creativecommons.org/ns
 - **Vocabulary:** -
 - **Wiki:** https://wiki.creativecommons.org/

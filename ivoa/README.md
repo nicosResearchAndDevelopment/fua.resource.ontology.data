@@ -1,7 +1,7 @@
 # Ontology of Astronomical Object Types (IVOA)
 
 - **Ontology:** -
-- **Model:** [`ivoa.xml`](local/ivoa.xml)
+- **Model:** [`ivoa.ttl`](local/ivoa_generated.ttl), [`ivoa.xml`](local/ivoa.xml)
 - **Specification:** https://www.ivoa.net/documents/Notes/AstrObjectOntology/
 - **Vocabulary:** -
 - **Wiki:** -
