@@ -8,3 +8,11 @@
 - **LOV:** -
 
 ![](images/AstrObjectOntologyUseCases.png)
+
+---
+
+- [IVOA Semantics Working Group](https://wiki.ivoa.net/twiki/bin/view/IVOA/IvoaSemantics)
+- [Ontology of Astronomical Object Types](https://www.ivoa.net/documents/Notes/AstrObjectOntology/)
+- [Ontology of Astronomical Object Types Use Cases](https://www.ivoa.net/documents/Notes/AstrObjectOntologyUseCases/)
+
+---
