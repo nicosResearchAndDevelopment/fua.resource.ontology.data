@@ -34,6 +34,9 @@ module.exports = {
         'dct:identifier': './http/load.http.js',
         'dct:format':     'application/fua.load+js'
     }, {
+        'dct:identifier': './ivoa/load.ivoa.js',
+        'dct:format':     'application/fua.load+js'
+    }, {
         'dct:identifier': './ldn/load.ldn.js',
         'dct:format':     'application/fua.load+js'
     }, {

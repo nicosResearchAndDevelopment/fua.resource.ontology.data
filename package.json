@@ -33,6 +33,9 @@
     "./http": {
       "require": "./http/load.http.js"
     },
+    "./ivoa": {
+      "require": "./ivoa/load.ivoa.js"
+    },
     "./ldn": {
       "require": "./ldn/load.ldn.js"
     },
