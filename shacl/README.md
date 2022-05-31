@@ -23,7 +23,7 @@
                       △                              △
                       │                               │
 ┌─────────────────────────────────────┐ ┌───────────────────────────────────────────────┐
-│            sh:NodeShape             │ │                 sh:NodeShape                  │
+│            sh:NodeShape             │ │                 sh:PropertyShape              │
 ╞═════════════════════════════════════╡ ╞═══════════════════════════════════════════════╡
 │ Constraint parameters, for example: │ │ Constraint parameters, for example:           │
 │ sh:closed : xsd:boolean             │ │ sh:minCount, sh:maxCount : xsd:integer        │
