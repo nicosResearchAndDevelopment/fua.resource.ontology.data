@@ -1,8 +1,6 @@
-const path = require('path');
-
 module.exports = {
     '@context':        'fua.load.rdf',
-    'dct:identifier':  path.join(__dirname, './load.cert.js'),
+    'dct:identifier':  __filename,
     'dct:format':      'application/fua.load+js',
     'dct:title':       'load.cert',
     'dct:alternative': '@nrd/fua.resource.ontology/cert',

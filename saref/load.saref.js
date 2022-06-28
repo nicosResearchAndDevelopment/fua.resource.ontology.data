@@ -1,8 +1,6 @@
-const path = require('path');
-
 module.exports = {
     '@context':        'fua.load.rdf',
-    'dct:identifier':  path.join(__dirname, './load.saref.js'),
+    'dct:identifier':  __filename,
     'dct:format':      'application/fua.load+js',
     'dct:title':       'load.saref',
     'dct:alternative': '@nrd/fua.resource.ontology/saref',
