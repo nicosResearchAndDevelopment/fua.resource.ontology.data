@@ -10,3 +10,7 @@
 ![](images/starting-points.svg)
 
 ---
+
+[//]: # (TODO list all properties and classes)
+
+---
