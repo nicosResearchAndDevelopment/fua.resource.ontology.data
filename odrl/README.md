@@ -6,6 +6,7 @@
 - **Vocabulary:** https://www.w3.org/TR/odrl-vocab/
 - **Wiki:** -
 - **LOV:** https://lov.linkeddata.es/dataset/lov/vocabs/odrl
+- [ODRL Profile Best Practices](https://w3c.github.io/odrl/profile-bp/)
 
 ![](images/model.edited-small.png)
 
