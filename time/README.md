@@ -6,6 +6,8 @@
 - **Vocabulary:** https://www.w3.org/TR/owl-time/
 - **Wiki:** -
 - **LOV:** https://lov.linkeddata.es/dataset/lov/vocabs/time
+- [RFC 3339 - Date and Time on the Internet: Timestamps](https://datatracker.ietf.org/doc/html/rfc3339)
+    - [Appendix A - ISO 8601 Collected ABNF](https://datatracker.ietf.org/doc/html/rfc3339#appendix-A)
 
 ![](images/interval-relations.original.png)
 
