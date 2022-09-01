@@ -22,6 +22,10 @@ module.exports = {
             'dct:format':     'application/fua.load+js'
         },
         {
+            'dct:identifier': './dcat/load.dcat.js',
+            'dct:format':     'application/fua.load+js'
+        },
+        {
             'dct:identifier': './dct/load.dct.js',
             'dct:format':     'application/fua.load+js'
         },

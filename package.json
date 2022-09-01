@@ -18,6 +18,9 @@
     "./dc": {
       "require": "./dc/load.dc.js"
     },
+    "./dcat": {
+      "require": "./dcat/load.dcat.js"
+    },
     "./dct": {
       "require": "./dct/load.dct.js"
     },
