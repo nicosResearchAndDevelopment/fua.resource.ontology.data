@@ -107,7 +107,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@git02.int.nsc.ag:10022/research/fua/lib/resource/resource.ontology.git"
+    "url": "ssh://git@git02.int.nsc.ag:10022/research/fua/resource/ontology.git"
   },
   "author": "spetrac@nicos-ag.com",
   "license": "UNLICENSED"
