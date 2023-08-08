@@ -10,23 +10,7 @@ module.exports = {
             'dct:format':     'application/fua.load+js'
         },
         {
-            'dct:identifier': './fno/load.js',
-            'dct:format':     'application/fua.load+js'
-        },
-        // {
-        //     'dct:identifier': './geo/load.js',
-        //     'dct:format':     'application/fua.load+js'
-        // },
-        {
-            'dct:identifier': './http/load.js',
-            'dct:format':     'application/fua.load+js'
-        },
-        {
-            'dct:identifier': './ldn/load.js',
-            'dct:format':     'application/fua.load+js'
-        },
-        {
-            'dct:identifier': './ldp/load.js',
+            'dct:identifier': './geo/load.js',
             'dct:format':     'application/fua.load+js'
         },
         {
@@ -37,10 +21,6 @@ module.exports = {
             'dct:identifier': './prov/load.js',
             'dct:format':     'application/fua.load+js'
         },
-        // {
-        //     'dct:identifier': './saref/load.js',
-        //     'dct:format':     'application/fua.load+js'
-        // },
         {
             'dct:identifier': './schema/load.js',
             'dct:format':     'application/fua.load+js'
