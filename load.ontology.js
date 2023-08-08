@@ -10,15 +10,7 @@ module.exports = {
             'dct:format':     'application/fua.load+js'
         },
         {
-            'dct:identifier': './cc/load.cc.js',
-            'dct:format':     'application/fua.load+js'
-        },
-        {
             'dct:identifier': './cert/load.cert.js',
-            'dct:format':     'application/fua.load+js'
-        },
-        {
-            'dct:identifier': './dc/load.dc.js',
             'dct:format':     'application/fua.load+js'
         },
         {
@@ -26,15 +18,7 @@ module.exports = {
             'dct:format':     'application/fua.load+js'
         },
         {
-            'dct:identifier': './dct/load.dct.js',
-            'dct:format':     'application/fua.load+js'
-        },
-        {
             'dct:identifier': './fno/load.fno.js',
-            'dct:format':     'application/fua.load+js'
-        },
-        {
-            'dct:identifier': './foaf/load.foaf.js',
             'dct:format':     'application/fua.load+js'
         },
         // {
@@ -66,10 +50,6 @@ module.exports = {
             'dct:format':     'application/fua.load+js'
         },
         {
-            'dct:identifier': './owl/load.owl.js',
-            'dct:format':     'application/fua.load+js'
-        },
-        {
             'dct:identifier': './prov/load.prov.js',
             'dct:format':     'application/fua.load+js'
         },
@@ -77,14 +57,6 @@ module.exports = {
         //     'dct:identifier': './qudt/load.qudt.js',
         //     'dct:format':     'application/fua.load+js'
         // },
-        {
-            'dct:identifier': './rdf/load.rdf.js',
-            'dct:format':     'application/fua.load+js'
-        },
-        {
-            'dct:identifier': './rdfs/load.rdfs.js',
-            'dct:format':     'application/fua.load+js'
-        },
         // {
         //     'dct:identifier': './saref/load.saref.js',
         //     'dct:format':     'application/fua.load+js'
@@ -95,10 +67,6 @@ module.exports = {
         },
         {
             'dct:identifier': './shacl/load.shacl.js',
-            'dct:format':     'application/fua.load+js'
-        },
-        {
-            'dct:identifier': './skos/load.skos.js',
             'dct:format':     'application/fua.load+js'
         },
         // {
@@ -115,10 +83,6 @@ module.exports = {
         },
         {
             'dct:identifier': './vcard/load.vcard.js',
-            'dct:format':     'application/fua.load+js'
-        },
-        {
-            'dct:identifier': './xsd/load.xsd.js',
             'dct:format':     'application/fua.load+js'
         }
     ]

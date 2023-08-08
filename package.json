@@ -9,26 +9,14 @@
     "./acl": {
       "require": "./acl/load.acl.js"
     },
-    "./cc": {
-      "require": "./cc/load.cc.js"
-    },
     "./cert": {
       "require": "./cert/load.cert.js"
-    },
-    "./dc": {
-      "require": "./dc/load.dc.js"
     },
     "./dcat": {
       "require": "./dcat/load.dcat.js"
     },
-    "./dct": {
-      "require": "./dct/load.dct.js"
-    },
     "./fno": {
       "require": "./fno/load.fno.js"
-    },
-    "./foaf": {
-      "require": "./foaf/load.foaf.js"
     },
     "./geo": {
       "require": "./geo/load.geo.js"
@@ -51,20 +39,11 @@
     "./org": {
       "require": "./org/load.org.js"
     },
-    "./owl": {
-      "require": "./owl/load.owl.js"
-    },
     "./prov": {
       "require": "./prov/load.prov.js"
     },
     "./qudt": {
       "require": "./qudt/load.qudt.js"
-    },
-    "./rdf": {
-      "require": "./rdf/load.rdf.js"
-    },
-    "./rdfs": {
-      "require": "./rdfs/load.rdfs.js"
     },
     "./saref": {
       "require": "./saref/load.saref.js"
@@ -74,9 +53,6 @@
     },
     "./shacl": {
       "require": "./shacl/load.shacl.js"
-    },
-    "./skos": {
-      "require": "./skos/load.skos.js"
     },
     "./sweet": {
       "require": "./sweet/load.sweet.js"
@@ -89,9 +65,6 @@
     },
     "./vcard": {
       "require": "./vcard/load.vcard.js"
-    },
-    "./xsd": {
-      "require": "./xsd/load.xsd.js"
     }
   },
   "devDependencies": {
