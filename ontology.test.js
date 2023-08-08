@@ -3,7 +3,7 @@ const
     expect           = require('expect'),
     {loadDataFiles}  = require('@nrd/fua.module.rdf'),
     {Dataset}        = require('@nrd/fua.module.persistence'),
-    res_ontology     = require('@nrd/fua.resource.ontology');
+    res_ontology     = require('./load.ontology.js');
 
 describe('resource.ontology', function () {
 
