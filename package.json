@@ -4,48 +4,52 @@
   "description": "",
   "exports": {
     ".": {
-      "require": "./load.ontology.js"
+      "require": "./src/load.js"
     },
     "./dcat": {
-      "require": "./dcat/load.dcat.js"
+      "require": "./src/dcat/load.js"
     },
     "./fno": {
-      "require": "./fno/load.fno.js"
+      "require": "./src/fno/load.js"
     },
     "./geo": {
-      "require": "./geo/load.geo.js"
+      "require": "./src/geo/load.js"
     },
     "./http": {
-      "require": "./http/load.http.js"
+      "require": "./src/http/load.js"
     },
     "./ldn": {
-      "require": "./ldn/load.ldn.js"
+      "require": "./src/ldn/load.js"
     },
     "./ldp": {
-      "require": "./ldp/load.ldp.js"
+      "require": "./src/ldp/load.js"
     },
     "./org": {
-      "require": "./org/load.org.js"
+      "require": "./src/org/load.js"
     },
     "./prov": {
-      "require": "./prov/load.prov.js"
+      "require": "./src/prov/load.js"
     },
     "./saref": {
-      "require": "./saref/load.saref.js"
+      "require": "./src/saref/load.js"
     },
     "./schema": {
-      "require": "./schema/load.schema.js"
+      "require": "./src/schema/load.js"
     },
     "./shacl": {
-      "require": "./shacl/load.shacl.js"
+      "require": "./src/shacl/load.js"
     },
     "./time": {
-      "require": "./time/load.time.js"
+      "require": "./src/time/load.js"
     },
     "./vcard": {
-      "require": "./vcard/load.vcard.js"
+      "require": "./src/vcard/load.js"
     }
   },
+  "files": [
+    "src/*",
+    "data/*"
+  ],
   "devDependencies": {
     "mocha": "^8.2.1",
     "expect": "^26.6.2",

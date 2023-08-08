@@ -1,20 +1,20 @@
 # @nrd/fua.resource.ontology.data
 
-| Name                                                                    | Prefix      | Model                                                                                                   | IRI                                  |
-|-------------------------------------------------------------------------|-------------|---------------------------------------------------------------------------------------------------------|--------------------------------------|
-| [Data Catalog](dcat/README.md)                                          | `dcat`      | [`.ttl`](dcat/local/dcat.ttl) [`.json`](dcat/local/dcat.json) [`.xml`](dcat/local/dcat.xml)             | http://www.w3.org/ns/dcat#           |
-| [The Function Ontology](fno/README.md)                                  | `fno`       | [`.ttl`](fno/local/fno.ttl)                                                                             | https://w3id.org/function/ontology#  |
-| [WGS84, GeoSparQL, GML, Simple Feature, GeoJSON](geo/README.md)         |             |                                                                                                         |                                      |
-| [HTTP in RDF](http/README.md)                                           | `http`      | [`.xml`](http/local/http.xml)                                                                           | http://www.w3.org/2011/http#         |
-| [Linked Data Notifications](ldn/README.md)                              |             |                                                                                                         |                                      |
-| [Linked Data Platform](ldp/README.md)                                   | `ldp`       | [`.ttl`](ldp/local/ldp.ttl) [`.json`](ldp/local/ldp.json) [`.xml`](ldp/local/ldp.xml)                   | http://www.w3.org/ns/ldp#            |
-| [Organization Ontology](org/README.md)                                  | `org`       | [`.ttl`](org/local/org.ttl)                                                                             | http://www.w3.org/ns/org#            |
-| [The Provenance Ontology](prov/README.md)                               | `prov`      | [`.ttl`](prov/local/prov.ttl) [`.xml`](prov/local/prov.xml)                                             | http://www.w3.org/ns/prov#           |
-| [Smart Applications REFerence ontology](saref/README.md)                | `saref`     | [`.ttl`](saref/local/saref.ttl) [`.json`](saref/local/saref.json) [`.xml`](saref/local/saref.xml)       |                                      |
-| [Schema](schema/README.md)                                              | `schema`    | [`.ttl`](schema/local/schema.ttl) [`.json`](schema/local/schema.json) [`.xml`](schema/local/schema.xml) | http://schema.org/                   |
-| [Shapes Constraint Language](shacl/README.md)                           | `shacl`     | [`.ttl`](shacl/local/shacl.ttl) [`.xml`](shacl/local/shacl.xml)                                         | http://www.w3.org/ns/shacl#          |
-| [Time Ontology](time/README.md)                                         | `time`      | [`.ttl`](time/local/time.ttl) [`.json`](time/local/time.json) [`.xml`](time/local/time.xml)             | http://www.w3.org/2006/time#         |
-| [vCard](vcard/README.md)                                                | `vcard`     | [`.ttl`](vcard/local/vcard.ttl) [`.json`](vcard/local/vcard.json) [`.xml`](vcard/local/vcard.xml)       | http://www.w3.org/2006/vcard/ns#     |
+| Name                                                                 | Prefix   | Model                                                                                                | IRI                                 |
+|----------------------------------------------------------------------|----------|------------------------------------------------------------------------------------------------------|-------------------------------------|
+| [Data Catalog](data/dcat/README.md)                                  | `dcat`   | [`.ttl`](data/dcat/dcat.ttl) [`.json`](data/dcat/dcat.json) [`.xml`](data/dcat/dcat.xml)             | http://www.w3.org/ns/dcat#          |
+| [The Function Ontology](data/fno/README.md)                          | `fno`    | [`.ttl`](data/fno/fno.ttl)                                                                           | https://w3id.org/function/ontology# |
+| [WGS84, GeoSparQL, GML, Simple Feature, GeoJSON](data/geo/README.md) |          |                                                                                                      |                                     |
+| [HTTP in RDF](data/http/README.md)                                   | `http`   | [`.xml`](data/http/http.xml)                                                                         | http://www.w3.org/2011/http#        |
+| [Linked Data Notifications](data/ldn/README.md)                      |          |                                                                                                      |                                     |
+| [Linked Data Platform](data/ldp/README.md)                           | `ldp`    | [`.ttl`](data/ldp/ldp.ttl) [`.json`](data/ldp/ldp.json) [`.xml`](data/ldp/ldp.xml)                   | http://www.w3.org/ns/ldp#           |
+| [Organization Ontology](data/org/README.md)                          | `org`    | [`.ttl`](data/org/org.ttl)                                                                           | http://www.w3.org/ns/org#           |
+| [The Provenance Ontology](data/prov/README.md)                       | `prov`   | [`.ttl`](data/prov/prov.ttl) [`.xml`](data/prov/prov.xml)                                            | http://www.w3.org/ns/prov#          |
+| [Smart Applications REFerence ontology](data/saref/README.md)        | `saref`  | [`.ttl`](data/saref/saref.ttl) [`.json`](data/saref/saref.json) [`.xml`](data/saref/saref.xml)       |                                     |
+| [Schema](data/schema/README.md)                                      | `schema` | [`.ttl`](data/schema/schema.ttl) [`.json`](data/schema/schema.json) [`.xml`](data/schema/schema.xml) | http://schema.org/                  |
+| [Shapes Constraint Language](data/shacl/README.md)                   | `shacl`  | [`.ttl`](data/shacl/shacl.ttl) [`.xml`](data/shacl/shacl.xml)                                        | http://www.w3.org/ns/shacl#         |
+| [Time Ontology](data/time/README.md)                                 | `time`   | [`.ttl`](data/time/time.ttl) [`.json`](data/time/time.json) [`.xml`](data/time/time.xml)             | http://www.w3.org/2006/time#        |
+| [vCard](data/vcard/README.md)                                        | `vcard`  | [`.ttl`](data/vcard/vcard.ttl) [`.json`](data/vcard/vcard.json) [`.xml`](data/vcard/vcard.xml)       | http://www.w3.org/2006/vcard/ns#    |
 
 ## Helpful Links
 
