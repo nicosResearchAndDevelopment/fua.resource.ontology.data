@@ -6,12 +6,6 @@
     ".": {
       "require": "./load.ontology.js"
     },
-    "./acl": {
-      "require": "./acl/load.acl.js"
-    },
-    "./cert": {
-      "require": "./cert/load.cert.js"
-    },
     "./dcat": {
       "require": "./dcat/load.dcat.js"
     },
@@ -30,9 +24,6 @@
     "./ldp": {
       "require": "./ldp/load.ldp.js"
     },
-    "./odrl": {
-      "require": "./odrl/load.odrl.js"
-    },
     "./org": {
       "require": "./org/load.org.js"
     },
@@ -50,9 +41,6 @@
     },
     "./time": {
       "require": "./time/load.time.js"
-    },
-    "./vc": {
-      "require": "./vc/load.vc.js"
     },
     "./vcard": {
       "require": "./vcard/load.vcard.js"

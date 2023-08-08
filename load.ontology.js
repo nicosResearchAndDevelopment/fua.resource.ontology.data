@@ -6,14 +6,6 @@ module.exports = {
     'dct:alternative': '@nrd/fua.resource.ontology',
     'dct:requires':    [
         {
-            'dct:identifier': './acl/load.acl.js',
-            'dct:format':     'application/fua.load+js'
-        },
-        {
-            'dct:identifier': './cert/load.cert.js',
-            'dct:format':     'application/fua.load+js'
-        },
-        {
             'dct:identifier': './dcat/load.dcat.js',
             'dct:format':     'application/fua.load+js'
         },
@@ -38,10 +30,6 @@ module.exports = {
             'dct:format':     'application/fua.load+js'
         },
         {
-            'dct:identifier': './odrl/load.odrl.js',
-            'dct:format':     'application/fua.load+js'
-        },
-        {
             'dct:identifier': './org/load.org.js',
             'dct:format':     'application/fua.load+js'
         },
@@ -63,10 +51,6 @@ module.exports = {
         },
         {
             'dct:identifier': './time/load.time.js',
-            'dct:format':     'application/fua.load+js'
-        },
-        {
-            'dct:identifier': './vc/load.vc.js',
             'dct:format':     'application/fua.load+js'
         },
         {
