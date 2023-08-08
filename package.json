@@ -24,9 +24,6 @@
     "./http": {
       "require": "./http/load.http.js"
     },
-    "./ivoa": {
-      "require": "./ivoa/load.ivoa.js"
-    },
     "./ldn": {
       "require": "./ldn/load.ldn.js"
     },
@@ -42,9 +39,6 @@
     "./prov": {
       "require": "./prov/load.prov.js"
     },
-    "./qudt": {
-      "require": "./qudt/load.qudt.js"
-    },
     "./saref": {
       "require": "./saref/load.saref.js"
     },
@@ -53,9 +47,6 @@
     },
     "./shacl": {
       "require": "./shacl/load.shacl.js"
-    },
-    "./sweet": {
-      "require": "./sweet/load.sweet.js"
     },
     "./time": {
       "require": "./time/load.time.js"

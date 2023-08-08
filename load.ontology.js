@@ -29,10 +29,6 @@ module.exports = {
             'dct:identifier': './http/load.http.js',
             'dct:format':     'application/fua.load+js'
         },
-        // {
-        //     'dct:identifier': './ivoa/load.ivoa.js',
-        //     'dct:format':     'application/fua.load+js'
-        // },
         {
             'dct:identifier': './ldn/load.ldn.js',
             'dct:format':     'application/fua.load+js'
@@ -54,10 +50,6 @@ module.exports = {
             'dct:format':     'application/fua.load+js'
         },
         // {
-        //     'dct:identifier': './qudt/load.qudt.js',
-        //     'dct:format':     'application/fua.load+js'
-        // },
-        // {
         //     'dct:identifier': './saref/load.saref.js',
         //     'dct:format':     'application/fua.load+js'
         // },
@@ -69,10 +61,6 @@ module.exports = {
             'dct:identifier': './shacl/load.shacl.js',
             'dct:format':     'application/fua.load+js'
         },
-        // {
-        //     'dct:identifier': './sweet/load.sweet.js',
-        //     'dct:format':     'application/fua.load+js'
-        // },
         {
             'dct:identifier': './time/load.time.js',
             'dct:format':     'application/fua.load+js'
