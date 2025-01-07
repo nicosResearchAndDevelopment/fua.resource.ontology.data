@@ -3,7 +3,7 @@ module.exports = {
     'dct:identifier':  __filename,
     'dct:format':      'application/fua.load+js',
     'dct:title':       'load',
-    'dct:alternative': '@nrd/fua.resource.ontology.data/geo',
+    'dct:alternative': '@fua/resource.ontology.data/geo',
     'dct:requires':    [{
         'dct:identifier': '../../data/geo/wgs84.xml',
         'dct:format':     'application/rdf+xml'
